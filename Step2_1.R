@@ -44,4 +44,4 @@ final.combine<- final.combine %>%
   filter(Match != "-", is.na(Detailed_Score_Difference) == FALSE)
 cor(final.combine$Difference_in_Height,final.combine$Detailed_Score_Difference)
 plot(final.combine$Difference_in_Height,final.combine$Detailed_Score_Difference)
-cor.test(final.combine$Difference_in_Height,final.combine$Detailed_Score_Difference)
+
